@@ -2,7 +2,8 @@
 
 > A full-stack Kanban project management app built with **Next.js 14**, **TypeScript**, and **REST APIs**.
 
-[![CI/CD](https://img.shields.io/github/actions/workflow/status/YOUR_USERNAME/taskflow/ci-cd.yml?label=CI%2FCD&style=flat-square)](https://github.com/YOUR_USERNAME/taskflow/actions)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit-brightgreen?style=flat-square)](https://taskflow-lake-nu.vercel.app)
+[![CI/CD](https://img.shields.io/github/actions/workflow/status/AKHIL1633/taskflow/ci-cd.yml?label=CI%2FCD&style=flat-square)](https://github.com/AKHIL1633/taskflow/actions)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?style=flat-square)](https://www.typescriptlang.org/)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat-square)](https://nextjs.org/)
 
@@ -18,22 +19,22 @@
 
 ## 🛠️ Tech Stack
 
-| Layer        | Technology                              |
-|--------------|-----------------------------------------|
-| Framework    | Next.js 14 (App Router)                 |
-| Language     | TypeScript (strict mode)               |
-| Styling      | Tailwind CSS                            |
-| Drag & Drop  | @dnd-kit/core + @dnd-kit/sortable       |
-| API          | Next.js Route Handlers (REST)           |
-| Data layer   | In-memory store → swap for Prisma + PostgreSQL |
-| Testing      | Jest + React Testing Library            |
-| CI/CD        | GitHub Actions → Vercel                 |
+| Layer        | Technology                                      |
+|--------------|-------------------------------------------------|
+| Framework    | Next.js 14 (App Router)                         |
+| Language     | TypeScript (strict mode)                        |
+| Styling      | Tailwind CSS                                    |
+| Drag & Drop  | @dnd-kit/core + @dnd-kit/sortable               |
+| API          | Next.js Route Handlers (REST)                   |
+| Data layer   | In-memory store → swap for Prisma + PostgreSQL  |
+| Testing      | Jest + React Testing Library                    |
+| CI/CD        | GitHub Actions → Vercel                         |
 
 ## 🚀 Getting Started
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/taskflow.git
+git clone https://github.com/AKHIL1633/taskflow.git
 cd taskflow
 
 # 2. Install dependencies
@@ -71,18 +72,18 @@ src/
 ## 🧪 Running Tests
 
 ```bash
-npm test              # Run all tests
-npm test -- --coverage  # With coverage report
+npm test                    # Run all tests
+npm test -- --coverage      # With coverage report
 ```
 
 ## 🌐 API Reference
 
-| Method | Endpoint           | Description          |
-|--------|--------------------|----------------------|
-| GET    | `/api/tasks`       | Fetch all tasks      |
-| POST   | `/api/tasks`       | Create a new task    |
-| PATCH  | `/api/tasks/:id`   | Update a task        |
-| DELETE | `/api/tasks/:id`   | Delete a task        |
+| Method | Endpoint         | Description       |
+|--------|------------------|-------------------|
+| GET    | `/api/tasks`     | Fetch all tasks   |
+| POST   | `/api/tasks`     | Create a new task |
+| PATCH  | `/api/tasks/:id` | Update a task     |
+| DELETE | `/api/tasks/:id` | Delete a task     |
 
 ## 📈 Roadmap
 
@@ -93,4 +94,4 @@ npm test -- --coverage  # With coverage report
 
 ## 📄 License
 
-MIT © YOUR_NAME
+MIT © P Akhil
